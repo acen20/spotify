@@ -21,9 +21,9 @@ function Sidebar() {
       <strong className="sidebar-title">PLAYLISTS</strong>
       <hr />
 
-      {playlists?.items?.map((playlist) => {
-        <SidebarOption title={playlist.name} />;
-      })}
+      {playlists?.items?.map((playlist) => (
+        <SidebarOption title={playlist.name} />
+      ))}
     </div>
   );
 }
