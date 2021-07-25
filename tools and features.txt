@@ -1,4 +1,13 @@
 User authentication
-Spotify API
+Spotify API (Spotify for developers)
 Responsive Design
 Material UI
+React Context API (Like REDUX)
+Modern Tech
+React Hooks Functional (Hooks, state)
+Entire React Stack
+Massive Value
+
+ClientID: 49863f1199574da0924271c139105e8e
+
+https://developer.spotify.com/documentation/web-playback-sdk/quick-start/
