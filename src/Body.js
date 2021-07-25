@@ -1,10 +1,10 @@
 import React from "react";
 import "./Body.css";
 
-function Body() {
+function Body({ spotify }) {
   return (
     <div className="body">
-      <h1>I am Body</h1>
+      <Header spotify />
     </div>
   );
 }
