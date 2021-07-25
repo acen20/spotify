@@ -1,0 +1,4 @@
+User authentication
+Spotify API
+Responsive Design
+Material UI
