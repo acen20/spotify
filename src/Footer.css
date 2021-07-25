@@ -12,6 +12,7 @@
 
 .footer-left {
   flex: 0.3;
+  min-width: 50px;
   display: flex;
   align-items: center;
   color: white;

@@ -5,3 +5,34 @@
   color: white;
   padding: 30px;
 }
+
+.body-info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body-info-text {
+  flex: 1;
+}
+
+.body-info-text > p {
+  font-size: 12px;
+}
+
+.body-info-text > strong {
+  font-size: 12px;
+}
+
+.body-info-text > h2 {
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.body-info > img {
+  height: 20vw;
+  width: 20vw;
+  object-fit: cover;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
