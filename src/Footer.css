@@ -12,6 +12,35 @@
 
 .footer-left {
   flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: white;
+  max-width: 300px;
+}
+
+.footer-green {
+  color: #1ed15e;
+}
+
+.footer-album-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.footer-songinfo > h4 {
+  margin-bottom: 5px;
+}
+
+.footer-songinfo > p {
+  font-size: 12px;
+}
+
+.footer-icon:hover,
+.footer-green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
 }
 
 .footer-center {
@@ -26,4 +55,8 @@
 
 .footer-right {
   flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }

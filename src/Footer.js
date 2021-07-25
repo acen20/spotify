@@ -13,15 +13,23 @@ function Footer() {
   return (
     <div class="footer">
       <div className="footer-left">
-        <p>Album and song details</p>
+        <img
+          className="footer-album-logo"
+          src="https://i1.sndcdn.com/artworks-000555333744-47uoja-t500x500.jpg"
+          alt=""
+        />
+        <div className="footer-songinfo">
+          <h4>Marlboro</h4>
+          <p>Miyagi</p>
+        </div>
       </div>
 
       <div className="footer-center">
         <ShuffleIcon className="footer-green" />
         <SkipPreviousIcon className="footer-icon" />
-        <PlayerCircleOutlineIcon fontSize="large" />
+        <PlayerCircleOutlineIcon fontSize="large" className="footer-icon" />
         <SkipNextIcon className="footer-icon" />
-        <RepeatIcon className="footer-icon" />
+        <RepeatIcon className="footer-green" />
       </div>
 
       <div className="footer-right">
