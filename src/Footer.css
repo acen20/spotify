@@ -43,6 +43,10 @@
   transform: scale(1.2) !important;
 }
 
+.footer-right * .MuiSlider-root {
+  color: green;
+}
+
 .footer-center {
   padding: 0 100px;
   flex: 0.4;
@@ -54,8 +58,8 @@
 }
 
 .footer-right {
-  flex: 0.3;
   display: flex;
+  flex: 0.3;
   justify-content: space-between;
   align-items: center;
   color: white;
