@@ -48,7 +48,7 @@ function Body({ spotify }) {
       <div className="body-songs">
         <div className="body-icons">
           <PlayCircleFilledIcon className="body-shuffle" />
-          <FavoriteIcon className="heart-green" fontSize="large" />
+          <FavoriteIcon fontSize="large" />
           <MoreHorizIcon />
         </div>
         <div className="songs-list">

@@ -13,12 +13,6 @@ function Login() {
       <a href={loginUrl} className="">
         LOGIN WITH SPOTIFY
       </a>
-      <div className="login-footer">
-        <h1>
-          Cloned by <p>Ahsen Nazir</p>
-        </h1>
-      </div>
-
       {/*<div class="g-signin2" data-onsuccess="onSignIn"></div>*/}
     </div>
   );

@@ -1,6 +1,6 @@
 .sidebar-option {
   color: grey;
-  height: 35px;
+  height: 40px;
   cursor: pointer;
   transition: 200ms color ease-in;
   display: flex;
