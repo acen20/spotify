@@ -1,6 +1,7 @@
 //For logging in
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/";
+//const redirectUri = "https://pk-spotify.web.app/";
+const redirectUri = "http://localhost:3000/"; //for development
 const clientId = "49863f1199574da0924271c139105e8e";
 
 const scopes = [
