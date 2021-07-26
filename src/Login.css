@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
 .login {
   display: grid; /*creates a grid and centers everything*/
   place-items: center;
@@ -7,6 +8,7 @@
 
 .login > img {
   width: 100%;
+  max-width: 300px;
 }
 
 .login > a {
@@ -16,4 +18,26 @@
   font-weight: 800;
   color: white;
   text-decoration: none;
+}
+
+.login-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.login-footer > h1 {
+  font-size: 12px;
+  text-align: center;
+  color: darkgray;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.login-footer > h1 > p {
+  font-weight: lighter;
 }
