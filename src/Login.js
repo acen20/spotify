@@ -14,9 +14,8 @@ function Login() {
         LOGIN WITH SPOTIFY
       </a>
       <div className="login-footer">
-        <h1>
-          Cloned by <p>Ahsen Nazir</p>
-        </h1>
+        <h1>Cloned by</h1>
+        <p>&nbsp;Ahsen Nazir</p>
       </div>
 
       {/*<div class="g-signin2" data-onsuccess="onSignIn"></div>*/}

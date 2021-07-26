@@ -6,7 +6,7 @@ export const initialState = {
   item: null,
   weekly: null,
   //remove after development
-  //token:
+  token: null,
   //"BQB7nWSypheZvde4RA64nnh0JPHSQzBUAdKBLS5WrX18XK0AFsU_Ujk_dUQbwI2gIP91hkSyarsBSNtP2PSsjO85GI4PvOIQCY3yVkcRSVWtWDKlNAo4k5o4aHOkRW-ytIJvoVQw-vt3M2Tr6dDCa5jvu5MS8dMLbC1Nny93YvFSYO3bdIA5",
 };
 

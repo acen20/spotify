@@ -21,7 +21,7 @@
 }
 
 .login-footer {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(150, 150, 150, 0.1);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -30,14 +30,14 @@
   justify-content: center;
 }
 
-.login-footer > h1 {
+.login-footer > h1,
+p {
   font-size: 12px;
   text-align: center;
   color: darkgray;
   line-height: 1.6;
-  margin: 20px;
 }
 
-.login-footer > h1 > p {
+.login-footer > p {
   font-weight: lighter;
 }
