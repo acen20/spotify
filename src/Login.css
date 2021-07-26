@@ -21,7 +21,6 @@
 }
 
 .login-footer {
-  background-color: rgba(150, 150, 150, 0.1);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -39,5 +38,8 @@ p {
 }
 
 .login-footer > p {
+  font-family: "Mr Dafoe";
+  font-size: 14px;
   font-weight: lighter;
+  color: white;
 }

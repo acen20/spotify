@@ -15,7 +15,7 @@ function Login() {
       </a>
       <div className="login-footer">
         <h1>Cloned by</h1>
-        <p>&nbsp;Ahsen Nazir</p>
+        <p>&nbsp;Ahsen</p>
       </div>
 
       {/*<div class="g-signin2" data-onsuccess="onSignIn"></div>*/}
