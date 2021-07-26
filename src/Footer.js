@@ -19,7 +19,7 @@ function Footer() {
           alt=""
         />
         <div className="footer-songinfo">
-          <h4>Marlboro</h4>
+          <h4>Marlboro Remix</h4>
           <p>Miyagi</p>
         </div>
       </div>

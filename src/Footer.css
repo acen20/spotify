@@ -1,9 +1,9 @@
 .footer {
   position: fixed;
   bottom: 0;
-  height: 65px;
+  height: 50px;
   width: 100%;
-  background-color: black;
+  background-color: #201c1c;
   padding: 20px;
   display: flex;
   width: 97%;
@@ -24,18 +24,21 @@
 }
 
 .footer-album-logo {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-right: 20px;
   object-fit: contain;
 }
 
 .footer-songinfo > h4 {
+  font-size: 14px;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
 .footer-songinfo > p {
   font-size: 12px;
+  color: darkgray;
 }
 
 .footer-icon:hover,

@@ -4,6 +4,7 @@ body::-webkit-scrollbar {
 
 * {
   margin: 0;
+  font-family: sans-serif;
 }
 
 body {
